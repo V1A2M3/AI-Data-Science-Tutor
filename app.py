@@ -8,6 +8,10 @@ st.title("📊 AI Data Science Tutor")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
+# Initialize input field key
+if "user_input" not in st.session_state:
+    st.session_state["user_input"] = ""
+
 # User input at bottom
 user_input = st.text_input("Ask me a Data Science question:", key="user_input")
 
@@ -17,7 +21,7 @@ if user_input:
     st.session_state.chat_history.append(("🤖 AI", response))
 
     # Reset input field safely
-    st.session_state.user_input = ""
+    st.session_state["user_input"] = ""
     st.rerun()
 
 # Display answers at the top
