@@ -6,6 +6,18 @@ from ai_tutor.model import get_ai_response
 # ---- PAGE CONFIG ----
 st.set_page_config(page_title="AI Data Science Tutor", page_icon="🎓", layout="wide")
 
+# ---- Apply Custom CSS for Black Text ----
+st.markdown(
+    """
+    <style>
+    body { color: black !important; }
+    .stTextInput, .stButton>button { color: black !important; }
+    .stMarkdown { color: black !important; }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 st.title("📊 AI Data Science Tutor")
 
 # ---- Initialize Chat History ----
