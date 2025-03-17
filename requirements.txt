@@ -1,5 +1,5 @@
 streamlit
 langchain
+langchain_community
 google-generativeai
-faiss-cpu
-openai
+
