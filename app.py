@@ -12,9 +12,9 @@ st.title("📊 AI Data Science Tutor")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-# ---- Display Answers First ----
-st.subheader("📝 Chat History")
-for user_query, ai_response in reversed(st.session_state.chat_history):  
+# ---- Display AI Answers First ----
+st.subheader("📜 Chat History")
+for user_query, ai_response in reversed(st.session_state.chat_history):
     st.markdown(f"""
     ### **👨‍💻 You:** {user_query}  
     **🤖 AI Answer:**  
