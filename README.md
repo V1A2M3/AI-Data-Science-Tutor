@@ -10,6 +10,7 @@ A Conversational AI Data Science Tutor built using Google Gemini 1.5 Pro, LangCh
 ✅ Streamlit UI for an interactive chat experience
 ✅ Easy to Deploy on GitHub, Streamlit Cloud, or Hugging Face
 
+
 🛠 Tech Stack
 🤖 LLM: Google Gemini 1.5 Pro
 🧠 Memory: LangChain's ConversationBufferMemory
@@ -28,6 +29,8 @@ AI-Data-Science-Tutor/
 │── app.py                 # Streamlit app
 │── requirements.txt       # Dependencies
 │── README.md              # Documentation
+
+
 📦 Installation
 1️⃣ Clone the Repository
 bash
@@ -35,12 +38,14 @@ Copy
 Edit
 git clone https://github.com/YOUR_GITHUB_USERNAME/AI-Data-Science-Tutor.git
 cd AI-Data-Science-Tutor
+
 2️⃣ Create a Virtual Environment
 bash
 Copy
 Edit
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
+
 3️⃣ Install Dependencies
 bash
 Copy
