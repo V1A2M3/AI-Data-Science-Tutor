@@ -1,5 +1,5 @@
 import streamlit as st
-from ai_tutor.model import get_ai_response
+from .ai_tutor.model import get_ai_response
 from ai_tutor.memory import memory
 
 st.title("📊 AI Data Science Tutor")
